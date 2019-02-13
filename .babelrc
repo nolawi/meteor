@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-export-default",
+    "transform-decorators-legacy",
+    ["module-resolver", {
+      "root": ["./src"]
+    }]
+  ]
+}
+
